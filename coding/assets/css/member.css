@@ -1,0 +1,177 @@
+/* 회원가입 페이지 스타일
+.intro__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.intro__text {
+    font-size: 1.25rem;
+    color: var(--black600);
+}
+
+.intro__text em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.member__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member__sub {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.member__sub h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.member__sub ul {
+    display: flex;
+    justify-content: center;
+}
+
+.member__sub ul li {
+    margin: 0 0.5rem;
+}
+
+.member__sub ul li a {
+    font-size: 1.25rem;
+    color: var(--black600);
+    text-decoration: none;
+}
+
+.member__sub ul li.active a {
+    color: var(--mainColor);
+    font-weight: bold;
+}
+
+.member__insert {
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.member__insert fieldset {
+    border: none;
+}
+
+.member__insert label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.member__insert .check {
+    display: flex;
+    align-items: center;
+}
+
+.member__insert .check input,
+.member__insert .check button {
+    margin-right: 1rem;
+}
+
+.member__insert .btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--mainColor);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.member__insert .msg {
+    color: var(--pointColor);
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.member__insert .center {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.member__insert .btn-style {
+    padding: 1rem 2rem;
+    background-color: var(--mainColor);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* media */
+@media (max-width: 600px) {
+    .intro__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+#main {
+    padding: 20px 0;
+}
+
+.intro__inner {
+    text-align: center;
+}
+
+.intro__text {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.member__insert {
+    margin-top: 20px;
+}
+
+.member__insert label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.member__insert input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.member__insert .check {
+    position: relative;
+}
+
+.member__insert .check .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.member__insert .center {
+    text-align: center;
+}
+
+.member__insert .btn-style {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
