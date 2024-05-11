@@ -77,7 +77,7 @@ http://marathon.pe.kr/index_fleemarket.html
 <br><br>
 
 # 👉 프로젝트 도메인 주소
-https://nicejmp.dothome.co.kr
+https://dlswl1993.dothome.co.kr
 <br><br>
 
 # 💡 프로젝트 네이밍 정의
